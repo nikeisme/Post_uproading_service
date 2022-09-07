@@ -19,6 +19,11 @@
     
 - 게시글 페이지 로드 (선택 주제)
    - 게시글이 20개가 넘어가면 새 페이지로 넘어간다.
+
+## :gift_heart: new challenge
+  - Django_framework의 hashpassword 를 이용해 봤다.
+  - superuser를 사용하지 않고, 비밀번호를 생성해 게시글의 보안성을 높였다.
+  - 제목, 본문 등 DB 입력에 대한 유효성 검사를 해보았다. 
     
     
 ## :triangular_ruler: API 정상동작 여부
@@ -55,11 +60,6 @@
   - Feature : 새로운 기능추가
   - Fix : 에러 해결
   - Docs : 문서 수정
-  
-## :gift_heart: new challenge
-  - Django_framework의 hashpassword 를 이용해 봤다.
-  - superuser를 사용하지 않고, 비밀번호를 생성해 게시글의 보안성을 높였다.
-  - 제목, 본문 등 DB 입력에 대한 유효성 검사를 해보았다. 
   
 ## :100: 느낀점
   - django는 배워도 배워도 사용할 수 있는 기능이 끝도 없이 많다. 그래서 이번 프로젝트 또한 쓴 맛을 맛보았다.
