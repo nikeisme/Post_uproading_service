@@ -1,5 +1,5 @@
 ## :mag_right: 프로젝트 주제
-수정,삭제할 때 비밀번호를 입력해야하는 게시글 REST API 서버 개발
+수정,삭제할 때 비밀번호를 입력해야하는 게시글 REST API 서버 개발 <br>
 과제 출처 : 띵스플로우
 
 
@@ -47,24 +47,6 @@
 
 ![delete](https://user-images.githubusercontent.com/99165573/188929754-b8b520b7-c1d9-42a2-b3e3-07f3c5d7e5b4.jpg)
 
-### 게시판 게시글 등록
-- title(제목), content(내용)을 입력하여 글 등록
-
-![freepost create](https://user-images.githubusercontent.com/99165573/188482352-bc31c6b2-31c7-4781-9513-7c921a580dda.jpg)
-
-### 게시판 게시글 목록 조회
-
-![freepost read](https://user-images.githubusercontent.com/99165573/188483176-d20e98bc-c981-4a77-a826-06561fe402b3.jpg)
-
-### 게시판 게시글 삭제
-- title(제목), content(내용) 에 기재되어 있는 'test' -> 'test2'로 변경
-
-![freepost delete](https://user-images.githubusercontent.com/99165573/188483571-c5bdb45a-4673-4f51-8f3c-ae32a39087b6.jpg)
-
-### 게시판 게시글 삭제
-
-![freepost delete](https://user-images.githubusercontent.com/99165573/188483415-c0c463b7-7eb3-487e-9c34-10ee3ed32cfd.jpg)
-
 ## :paperclip: 커밋 컨벤션 
 
 -[emoji][태그 항목]:[ 커밋 내용]
@@ -77,6 +59,7 @@
 ## :gift_heart: new challenge
   - Django_framework의 hashpassword 를 이용해 봤다.
   - superuser를 사용하지 않고, 비밀번호를 생성해 게시글의 보안성을 높였다.
+  - 제목, 본문 등 DB 입력에 대한 유효성 검사를 해보았다. 
   
 ## :100: 느낀점
   - django는 배워도 배워도 사용할 수 있는 기능이 끝도 없이 많다. 그래서 이번 프로젝트 또한 쓴 맛을 맛보았다.
